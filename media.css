@@ -1,0 +1,230 @@
+@media only screen and (max-width: 376px) {
+  body {
+    text-align: left;
+  }
+  .container {
+    width: 100vw;
+    /* height: 100vh; */
+    /* background: blue; */
+  }
+
+  .hero-banner {
+    height: 33rem;
+    background: lightgray;
+  }
+
+  .banner-image {
+    position: relative;
+    height: 100%;
+  }
+  /* img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } */
+  nav {
+    padding-left: 11px;
+  }
+  .menu-items li.menu-item {
+    display: none;
+  }
+  .logo {
+    width: auto;
+    /* margin: 0 10px; */
+  }
+  .logo h2 {
+    font-size: 32px;
+  }
+  .side-img {
+    height: 200px;
+  }
+  .side-img img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .content-wrap {
+    top: 15rem;
+    display: flex;
+    flex-direction: column-reverse;
+    width: auto;
+    align-items: flex-start;
+  }
+  .headline-text h1 {
+    font-size: 28px;
+    font-weight: 600;
+  }
+  .headline-text h2 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .headline-text {
+    width: 200px;
+    margin-top: 22px;
+  }
+  .headline .info {
+    width: 290px;
+    /* background: orchid; */
+    font-size: 12px;
+    line-height: 19px;
+    /* font-weight: 600; */
+    letter-spacing: 0.9px;
+    margin-bottom: 19px;
+    margin-top: 10px;
+  }
+
+  .btn.contact-btn {
+    font-size: 12px;
+    padding: 12px 20px;
+  }
+
+  /*  about-us-container  */
+  .about-us-container {
+    width: 100%;
+    height: auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    /* background: red; */
+  }
+  .about-us-content-conatiner {
+    width: 100%;
+    /* height: 100%; */
+    /* background: pink; */
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 0px 10px 17px;
+    /* text-align: left; */
+  }
+
+  .about-us-content-image-conatiner {
+    width: 261px;
+  }
+
+  .about-us-content-text-conatiner {
+    padding-top: 30px;
+    width: 275px;
+    padding-left: 0px;
+  }
+  .about-us-content-text-conatiner p:nth-child(1) {
+    margin-bottom: 14px;
+  }
+  .about-us-content-text-conatiner .two {
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+    line-height: 24px;
+    letter-spacing: 0;
+  }
+  .about-us-content-text-conatiner .three {
+    letter-spacing: 0;
+  }
+  .about-us-content-text-conatiner .four {
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .about-us-content-text-conatiner .five {
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0px;
+  }
+  .project-completed {
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2px;
+    /* background-color: aquamarine; */
+  }
+  .our-specialization-content-text-container p:nth-child(1) {
+    margin-bottom: 15px;
+  }
+  .our-specialization-content-text-container p:nth-child(2) {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 40px;
+  }
+  .our-specialization {
+    width: auto;
+    /* height: 670px; */
+    background: rgb(117, 112, 112);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .our-specialization-sector {
+    width: 100%;
+    min-height: 200px;
+    /* background: blue; */
+    padding: 80px 20px;
+  }
+
+  .our-specialization-content-text-container {
+    text-align: center;
+    margin-left: -24px;
+  }
+  .our-journal-content-text-container {
+    text-align: center;
+    margin-left: -24px;
+  }
+
+  .our-journal-content-text-container p:nth-child(2) {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 40px;
+  }
+  .our-journal {
+    width: 75%;
+    /* height: 670px; */
+    /* background: rgb(117, 112, 112); */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* gap: 30px; */
+  }
+  .our-journal-content-container {
+    padding: 33px 0px 33px 0px;
+  }
+  .footter-container {
+    padding: 100px 0px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .contact-us,
+  .services,
+  .description {
+    width: auto;
+    /* background: red; */
+    padding: 0px 30px;
+  }
+  .description p {
+    margin-bottom: 20px;
+    font-size: 17px;
+    letter-spacing: 1px;
+  }
+  .contact-us-title {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  .services-title {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+}
